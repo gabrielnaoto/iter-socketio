@@ -9,5 +9,5 @@ pipenv install --python /usr/local/bin/python3
 Run:
 ```
 pipenv shell
-PYTHONWARNINGS="ignore:Unverified HTTPS request" python lib-socketio.py
+ITER_USERNAME=yourusername ITER_PASSWORD=yourpassword PYTHONWARNINGS="ignore:Unverified HTTPS request" python lib-socketio.py
 ```
